@@ -17,7 +17,7 @@ void MainComponent::paint (juce::Graphics& g)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
     g.setFont (juce::Font (38.0f));
-    g.setColour (juce::Colours::white);
+    g.setColour (juce::Colours::red);
     g.drawText ("Argentina campeon del mundo!", getLocalBounds(), juce::Justification::centred, true);
 }
 
